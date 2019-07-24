@@ -1,0 +1,473 @@
+<?xml version="1.0"?>
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../resources/DOMElements.xsd">
+
+    <element name="searchboxClick">
+        <xpath>//input[@id="query"]/.</xpath>
+    </element>
+    <element name="searchboxAutoClick">
+        <xpath>//span[@class="autoSuggKeywords"][contains(text(),'$')]</xpath>
+    </element>
+    <element name="clickCityName">
+        <xpath>//div[@class='city-state-scroll']//a[contains(text(),'Bangalore')]</xpath>
+    </element>
+    <element name="clickAllIndia">
+        <xpath>//a[@id='green_dhtml_content_All India']</xpath>
+    </element>
+    <element name="clickCitySearch">
+        <xpath>//input[@id='hCityInput']</xpath>
+    </element>
+    <element name="entercityname">
+        <xpath>//a[contains(text(),'Mumbai')]</xpath>
+    </element>
+    <element name="searchboxAutoField">
+        <xpath>//span[@class="autoSuggKeywords"][contains(text(),'')]</xpath>
+    </element>
+    <element name="searchSubmitClick">
+        <xpath>//i[@class="icon-search"]/.</xpath>
+    </element>
+
+    <element name="clickCHPPets">
+        <xpath>
+            //*[@class="clearfix category-block content-box"]//label[contains(text(),'')]/.
+        </xpath>
+    </element>
+    <element name="clickCHPPetsAttributes">
+        <xpath>
+            //*[@class="clearfix category-block content-box"]//label[contains(text(),'$')]/.
+        </xpath>
+    </element>
+    <element name="clickCHPcommunity">
+        <xpath>
+            //*[@class="clearfix category-block content-box community-cate"]//label[contains(text(),'')]/.
+        </xpath>
+    </element>
+    <element name="clickCHPcommunityAttributes">
+        <xpath>
+            //*[@class="clearfix category-block content-box community-cate"]//label[contains(text(),'$')]/.
+        </xpath>
+    </element>
+
+    <element name="clickCHPentertainment">
+        <xpath>
+            //*[@class="content-box category-block cate-col-3 entertainment-cate content-rows"]//label[contains(text(),'')]/.
+        </xpath>
+    </element>
+    <element name="clickCHPentertainmentAttributes">
+        <xpath>
+            //*[@class="content-box category-block cate-col-3 entertainment-cate content-rows"]//label[contains(text(),'$')]/.
+        </xpath>
+    </element>
+    <element name="clickCHPevents">
+        <xpath>
+            //*[@class="content-box category-block event-cate content-rows"]//label[contains(text(),'')]/.
+        </xpath>
+    </element>
+    <element name="clickCHPeventsAttributes">
+        <xpath>
+            //*[@class="content-box category-block event-cate content-rows"]//label[contains(text(),'$')]/.
+        </xpath>
+    </element>
+    <element name="clickCHPmatrimonial">
+        <xpath>
+            //*[@class="clearfix category-block content-box matrimonial-cate"]//label[contains(text(),'')]/.
+        </xpath>
+    </element>
+    <element name="clickCHPmatrimonialAttributes">
+        <xpath>
+            //*[@class="clearfix category-block content-box matrimonial-cate"]//label[contains(text(),'$')]/.
+        </xpath>
+    </element>
+    <element name="clickCHPENArtist">
+        <xpath>
+            //*[@class="clearfix category-block content-box matrimonial-cate"]//label[contains(text(),'')]/.
+        </xpath>
+    </element>
+    <element name="clickCHPmatrimonialENArtist">
+        <xpath>
+            //*[@class="clearfix category-block content-box matrimonial-cate"]//label[contains(text(),'$')]/.
+        </xpath>
+    </element>
+    <element name="clickHomesHamburger">
+        <xpath>
+            .//i[@class="icon-hamburger"]/.
+        </xpath>
+    </element>
+    <element name="clickHPHamburger">
+        <xpath>
+            .//div[@class="hamburger-menu__content "]//span[contains(text(),'')]/.
+        </xpath>
+    </element>
+    <element name="getHamburgerExpand">
+        <xpath>
+            //div[@class="more-categories show"]//span[contains(text(),"")]/.
+        </xpath>
+    </element>
+    <element name="clickonHamburgerExpandList">
+        <xpath>
+            //div[@class="more-categories show"]//span[contains(text(),"$")]/.
+        </xpath>
+    </element>
+    <element name="clickOnMore">
+        <xpath>
+            .//div[@class="hamburger-menu__content "]//span[contains(text(),'More Cat')]/.
+        </xpath>
+    </element>
+    <element name="checkPremiumTag">
+        <xpath>
+            (//i[@class="icon-premium"])['$']
+        </xpath>
+    </element>
+    <element name="clickonHPHamburger">
+        <xpath>
+            .//div[@class="hamburger-menu__content"]//span[contains(text(),'$')]/.
+        </xpath>
+    </element>
+    <element name="clickLHSNevigation">
+        <xpath>
+            .//*[@id="fixed-category"]//label[contains(text(),'')]/.
+        </xpath>
+    </element>
+    <element name="clickonLHSNevigation">
+        <xpath>
+            .//*[@id="fixed-category"]//label[contains(text(),'$')]/.
+        </xpath>
+    </element>
+    <element name="clickGridAll">
+        <xpath>
+            //div[@class="grid-content-col"]/a[contains(text(),"")]/.
+        </xpath>
+    </element>
+    <element name="clickonGridAll">
+        <xpath>
+            //div[@class="grid-content-col"]/a[contains(text(),"$")]/.
+        </xpath>
+    </element>
+    <element name="clickBrands">
+        <xpath>
+            .//p[@class="comp-name"][contains(text(),'')]/.
+        </xpath>
+    </element>
+    <element name="clickonBrands">
+        <xpath>
+            .//p[@class="comp-name"][contains(text(),'$')]/.
+        </xpath>
+    </element>
+    <element name="clickonLoginRegister">
+        <xpath>
+            //a[@id="loginLink"]/.
+        </xpath>
+    </element>
+    <element name="clickonRHSBrandsArrow">
+        <xpath>
+            //div[@id="group_carousel"]//button[@class="slick-next slick-arrow"]/.
+        </xpath>
+    </element>
+    <element name="getPopupLoginRegister">
+        <xpath>
+            //a[contains(text(),'Login')]/.
+        </xpath>
+    </element>
+    <element name="clickonBusinessLink">
+        <xpath>
+            //a[@class="business-link"]/.
+        </xpath>
+    </element>
+    <element name="clickonDownLoadAPP">
+        <xpath>
+            //a[@class="download-app"]/.
+        </xpath>
+    </element>
+    <element name="clickonDeals">
+        <xpath>
+            //i[@class="icon-deals"]/..
+        </xpath>
+    </element>
+    <element name="clickonpremium">
+        <xpath>
+            //a[@class="buy-credits"]/.
+        </xpath>
+    </element>
+    <element name="clickHorizontalBoxes">
+        <xpath>
+            .//strong[@class="title"][contains(text(),'')]/.
+        </xpath>
+    </element>
+    <element name="clickonHorizontalBoxes">
+        <xpath>
+            .//strong[@class="title"][contains(text(),'$')]/.
+        </xpath>
+    </element>
+    <element name="clickonBazzarLogo">
+        <xpath>
+            .//i[@class="logo-sprite q-bazaar-logo"]/.
+        </xpath>
+    </element>
+    <element name="clickonServicesLogo">
+        <xpath>
+            .//i[@class="logo-sprite q-services-logo"]/.
+        </xpath>
+    </element>
+    <element name="clickonCarsLogo">
+        <xpath>
+            .//i[@class="logo-sprite q-cars-logo"]/.
+        </xpath>
+    </element>
+    <element name="clickonBikesLogo">
+        <xpath>
+            .//i[@class="logo-sprite q-bikes-logo"]/.
+        </xpath>
+    </element>
+    <element name="clickonJobsLogo">
+        <xpath>
+            .//i[@class="logo-sprite q-jobs-logo"]/.
+        </xpath>
+    </element>
+    <element name="clickonHomesLogo">
+        <xpath>
+            .//i[@class="logo-sprite q-homes-logo"]/.
+        </xpath>
+    </element>
+    <element name="clickonEducationLogo">
+        <xpath>
+            .//i[@class="logo-sprite q-education-logo"]/.
+        </xpath>
+    </element>
+    <element name="getHPLogo">
+        <xpath>
+            //small[@class="hidden-xs"][contains(text(),"")]/.
+        </xpath>
+    </element>
+    <element name="clickonLogoAll">
+        <xpath>
+            //small[@class="hidden-xs"][contains(text(),"$")]/.
+        </xpath>
+    </element>
+    <element name="clickonChangeCity">
+        <xpath>
+            //a[@id="hSelectCity"]/.//i[@class="icon-arrow"]/.
+        </xpath>
+    </element>
+    <element name="getCityName">
+        <xpath>
+            //a[@id='hSelectCity']//span[contains(text(),'Mumbai')]
+        </xpath>
+    </element>
+    <element name="getCityNameAllIndia">
+        <xpath>
+            //a[@id='hSelectCity']//span[contains(text(),'All India')]
+        </xpath>
+    </element>
+    <element name="LoginName">
+        <xpath>
+            //input[@name="fullname"]/.
+        </xpath>
+    </element>
+    <element name="LoginEmail">
+        <xpath>
+            //input[@name="emailId"]/.
+        </xpath>
+    </element>
+    <element name="LoginMobile">
+        <xpath>
+            //input[@name="mobile"]/.
+        </xpath>
+    </element>
+    <element name="LoginPassword">
+        <xpath>
+            //input[@name="passWord"]/.
+        </xpath>
+    </element>
+    <element name="SearchBox">
+        <xpath>
+            //input[@placeholder='Search in Bangalore']
+        </xpath>
+    </element>
+    <element name="AutoSuggestTitle">
+        <xpath>
+            //h5[contains(text(),'Suggestions')]
+        </xpath>
+    </element>
+    <element name="AutoSuggestTitle">
+        <xpath>
+            //h5[contains(text(),'Suggestions')]
+        </xpath>
+    </element>
+    <element name="AutoSuggestResult">
+        <xpath>
+            //ul[@class='mdc-list']//a
+        </xpath>
+    </element>
+
+    <element name="getEDUAdCount">
+        <xpath>
+            //span[@class="ttl-cnt-data"]
+        </xpath>
+    </element>
+
+    <element name="clickonFirstAd">
+        <xpath>
+            (//h3[@class="prod-title"]/a[1])[1]
+        </xpath>
+    </element>
+
+    <element name="getAdIdText">
+        <xpath>
+            //div[@class="snb-heading"]/h2/span[3]
+        </xpath>
+    </element>
+
+    <element name="getAdViewsText">
+        <xpath>
+            (//div[@class="ad-detail clearfix"]//span[1])[1]
+        </xpath>
+    </element>
+
+    <element name="getAdViewProfileText">
+        <xpath>
+            //div[@class="user-online clearfix"]//a[1]
+        </xpath>
+    </element>
+
+    <element name="getAdDescriptionText">
+        <xpath>
+            //div[@class="desc-wrapper"]//h3[1]
+        </xpath>
+    </element>
+
+    <element name="getVAPUserAlsoViewd">
+        <xpath>
+            //div[@class="content-box viewed-carousel clearfix"]//h3[1]
+        </xpath>
+    </element>
+
+    <element name="openMainImage">
+        <xpath>
+            //div[@class="main-image"]//img[1]
+        </xpath>
+    </element>
+
+    <element name="openFirstImage">
+        <xpath>
+            /html/body/div[6]/section[1]/div[1]/div/div[1]/div[2]/ul/div/div/li[5]/a/img
+        </xpath>
+    </element>
+
+    <element name="isCloseImagePresent">
+        <xpath>
+            (//i[@class="icon-cross"])[1]
+        </xpath>
+    </element>
+
+    <element name="getCoreAdCount">
+        <xpath>
+            //div[@class="snb-heading"]//span[3]
+        </xpath>
+    </element>
+    <element name="enterEmail">
+        <xpath>
+            //*[@id="fullnameFromPopUp"]
+        </xpath>
+    </element>
+
+    <element name="enterPass">
+        <xpath>
+            //*[@id="password"]
+        </xpath>
+    </element>
+
+    <element name="clickSignIn">
+        <xpath>
+            //*[@id="reCaptchaLoginPassword"]
+        </xpath>
+    </element>
+
+    <element name="clickFPLink">
+        <xpath>
+            //*[@id="frmSignIn"]/div[7]/a
+        </xpath>
+    </element>
+
+    <element name="clickFPLink">
+        <xpath>
+            //*[@id="frmSignIn"]/div[7]/a
+        </xpath>
+    </element>
+
+    <element name="enterFPEmail">
+        <xpath>
+            //*[@id="forgotMobEmail"]
+        </xpath>
+    </element>
+
+    <element name="sendFPEmail">
+        <xpath>
+            //*[@id="reCaptchaRequestForgot"]
+        </xpath>
+    </element>
+
+    <element name="clickLogin">
+        <xpath>
+            //*[@id="loginLink"]/span/label
+        </xpath>
+    </element>
+
+    <element name="clickHamLogin">
+        <xpath>
+            //*[@id="hamLoginLink"]/span
+        </xpath>
+    </element>
+    
+    <element name="enterSearchKeywordOnHP"><xpath>//input[@type='text' and @id='query']</xpath></element>
+
+    <element name="selectfromAutoSuggest"><xpath>//label//span[@class='autoSuggKeywords' and text()='$']</xpath></element>
+
+    <element name="postFreeAdBtn">
+        <xpath>//a[@id='postAdBtn']</xpath>
+        <!--css>.yellow-bor.PostAd-Txt2</css-->
+    </element>
+
+
+    <element name="New_login">
+        <xpath>//label[contains(text(),'Enter Mobile Number')]/../input</xpath>
+    </element>
+
+    <element name="New_Continue">
+        <xpath>//button[@class='nls_primaryButton']</xpath>
+    </element>
+
+    <element name="Click_Login">
+        <xpath>//div//span[contains(text(),'LOGIN THROUGH PASSWORD')]</xpath>
+    </element>
+
+    <element name="New_Password">
+        <xpath>//div[@class='nls_formControl']//input[@type='password']</xpath>
+    </element>
+
+    <element name="HPLoginClick">
+        <xpath>//label[@class='user-name']</xpath>
+    </element>
+
+    <element name="similarAdsPresence">
+        <xpath>//div[@class="item-detail"]//a[contains(text(),"")]/.</xpath>
+    </element>
+
+    <element name="NREmail">
+        <xpath>//*[@id="login_email"]</xpath>
+    </element>
+
+    <element name="NRPass">
+        <xpath>//*[@id="login_password"]</xpath>
+    </element>
+
+    <element name="clickNRSubmit">
+        <xpath>//*[@id="login_submit"]</xpath>
+    </element>
+
+    <element name="NRGetText">
+        <xpath>/html/body/pre</xpath>
+    </element>
+
+</elements>
+
+
